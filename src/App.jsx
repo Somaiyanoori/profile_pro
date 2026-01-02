@@ -32,9 +32,7 @@ function App() {
   };
   return (
     <dive className="page">
-      <ProfilePage user=user>
-
-      </ProfilePage>
+      <ProfilePage user={user}></ProfilePage>
     </dive>
   );
 }
