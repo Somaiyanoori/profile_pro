@@ -69,8 +69,7 @@ Visit the following URL to view the app:
 
 # License
 
-This project is for learning and practice purposes.
-
+Distributed under the MIT License. See LICENSE for more information.
 # Author
 
 Somaiya Noori
