@@ -1,3 +1,4 @@
+// PersonalInfoCard component
 import Row from "./Row";
 
 export default function PersonalInfoCard({ info }) {

@@ -1,3 +1,4 @@
+// TopHeader component
 export default function TopHeader({ name, username, avatarImage }) {
   return (
     <header className="topHeader">

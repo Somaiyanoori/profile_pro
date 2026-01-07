@@ -1,3 +1,4 @@
+// Row component
 export default function Row({ label, value }) {
   return (
     <div className="row">

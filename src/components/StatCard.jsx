@@ -1,3 +1,4 @@
+// StatCard component
 export default function StatCard({ title, bigValue, footerText, icon }) {
   return (
     <div className="card statCard">

@@ -1,3 +1,4 @@
+// main file
 import "./App.css";
 import ProfilePage from "./components/ProfilePage";
 import avatarImage from "./assets/profile.jpg";

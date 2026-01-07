@@ -1,3 +1,4 @@
+// ProfilePage component
 import TopHeader from "./TopHeader";
 import StatCard from "./StatCard";
 import PersonalInfoCard from "./PersonalInfoCard";

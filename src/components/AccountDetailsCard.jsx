@@ -1,3 +1,4 @@
+// row component
 import Row from "./Row";
 
 export default function AccountDetailsCard({ details }) {
