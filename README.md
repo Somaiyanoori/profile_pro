@@ -38,6 +38,7 @@ profile_pro/
 │ │ ├── PersonalInfoCard.jsx
 │ │ ├── AccountDetailsCard.jsx
 │ │ └── ProfilePage.jsx
+│ │ └── Row.jsx
 │ ├── App.jsx
 │ ├── main.jsx
 │ ├── App.css
