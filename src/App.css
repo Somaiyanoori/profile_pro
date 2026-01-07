@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: #0b1220;
+  background: #cbb399;
   color: #e5e7eb;
 }
 
@@ -22,7 +22,7 @@ body {
 
 /* Top header like screenshot */
 .topHeader {
-  background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
+  background: linear-gradient(180deg, #493636 0%, #ce9894 100%);
   border-radius: 20px;
   padding: 42px 48px;
   border: 1px solid rgba(255, 255, 255, 0.06);
@@ -40,7 +40,7 @@ body {
   height: 150px;
   border-radius: 999px;
   padding: 6px;
-  background: #5b5cff;
+  background: #a72e0c;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,7 +51,7 @@ body {
   height: 100%;
   border-radius: 999px;
   background: #ffffff;
-  color: #0b1220;
+  color: #6a2b19;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -77,7 +77,7 @@ body {
   margin: 10px 0 0 0;
   font-size: 22px;
   font-weight: 700;
-  color: #5b5cff;
+  color: rgb(246, 202, 202);
 }
 
 /* Header buttons */
@@ -97,13 +97,13 @@ body {
 }
 
 .btnHeader.primary {
-  background: #5b5cff;
+  background: #6a2b19;
   color: #ffffff;
 }
 
 .btnHeader.ghost {
-  background: #eef2ff;
-  color: #3b5bff;
+  background: #b78578;
+  color: #ffffff;
 }
 
 /* Avatar image */
@@ -128,8 +128,8 @@ body {
 }
 
 .btn.primary {
-  background: #5b5cff;
-  border-color: #5b5cff;
+  background: #533831;
+  border-color: #ae8579;
   color: white;
 }
 
@@ -139,7 +139,7 @@ body {
 
 /* Cards */
 .card {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(129, 80, 80, 0.658);
   border: 1px solid rgba(255, 255, 255, 0.07);
   border-radius: 14px;
   padding: 18px;
@@ -164,7 +164,7 @@ body {
   margin: 0;
   font-size: 12px;
   letter-spacing: 0.12em;
-  color: #94a3b8;
+  color: #f3f4f6;
 }
 
 .statIcon {
@@ -175,12 +175,12 @@ body {
   margin-top: 12px;
   font-size: 40px;
   font-weight: 900;
-  color: #6d6bff;
+  color: #f4f3f3;
 }
 
 .statFooter {
   margin: 10px 0 0 0;
-  color: #a7b0c0;
+  color: #f1f2f3;
   font-size: 13px;
 }
 
@@ -218,12 +218,12 @@ body {
 }
 
 .rowLabel {
-  color: #93a4b7;
+  color: #ebe4e4;
   font-size: 13px;
 }
 
 .rowValue {
-  color: #e5e7eb;
+  color: #e9ebee;
   font-weight: 700;
   font-size: 13px;
   text-align: right;
@@ -235,13 +235,13 @@ body {
   padding: 6px 10px;
   border-radius: 999px;
   background: rgba(34, 197, 94, 0.15);
-  border: 1px solid rgba(34, 197, 94, 0.35);
-  color: #34d399;
+  border: 1px solid rgba(34, 197, 94, 0.829);
+  color: #2b785c;
   font-weight: 800;
 }
 
 .verified {
-  color: #8b5cf6;
+  color: #e9dede;
   font-weight: 900;
 }
 

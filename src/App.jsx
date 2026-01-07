@@ -1,15 +1,16 @@
 import "./App.css";
+import ProfilePage from "./components/ProfilePage";
 import avatarImage from "./assets/profile.jpg";
-import ProfilePage from "./components/profilePge";
-function App() {
+
+export default function App() {
   const user = {
     name: "Somaiya Noori",
-    username: "@somaiyanoori",
+    username: "@somaiysnoori",
     avatarImage: avatarImage,
     xp: 80,
     lastActive: "Dec 22, 2025",
     streakDays: 3,
-    longestStreak: 5,
+    longestStreak: 4,
     recentBadgesText: "No badges earned yet.",
 
     personalInfo: {
@@ -17,24 +18,23 @@ function App() {
       Gender: "Female",
       Country: "Afghanistan",
       "Province orState ": "Herat",
-      "Learning Experience (in years)": "2",
       "Date Of Birth": "10/10/2006",
       "Online Portfolio Link": "N/A",
       "LinkedIn Link": "Open the Link",
       Languages: "farsi, english",
-      Bio: "Student",
+      Bio: "Full stuck web developer",
     },
+
     accountDetails: {
       Role: "Student",
       Status: "Active",
       Verification: "Verified",
     },
   };
+
   return (
-    <dive className="page">
-      <ProfilePage user={user}></ProfilePage>
-    </dive>
+    <div className="page">
+      <ProfilePage user={user} />
+    </div>
   );
 }
-
-export default App;
